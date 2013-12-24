@@ -282,7 +282,7 @@ public class Config
     	
 
      	GameRegistry.addRecipe(new ItemStack(spawnerCore), new Object[] { 
-    		"ILI", "LBL", "ILI", 'L', Item.field_111214_ch, 'B', new ItemStack(Block.stoneBrick, 1, 3), 'I', Item.ingotIron
+    		"ILI", "LBL", "ILI", 'L', Item.leash, 'B', new ItemStack(Block.stoneBrick, 1, 3), 'I', Item.ingotIron
     	});    	
      	
      	GameRegistry.addRecipe(new ItemStack(Block.mobSpawner), new Object[] { 
