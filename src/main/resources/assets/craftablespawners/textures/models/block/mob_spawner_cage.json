@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_top",
+    "textures": {
+        "top": "blocks/mob_spawner",
+        "side": "blocks/mob_spawner"
+    }
+}

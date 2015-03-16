@@ -1,0 +1,13 @@
+{
+    "parent": "builtin/generated",
+    "textures": {
+        "layer0": "craftablespawners:items/spawnerSpider"
+    },
+    "display": {
+        "firstperson": {
+            "rotation": [ 0, -135, 25 ],
+            "translation": [ 0, 4, 2 ],
+            "scale": [ 1.7, 1.7, 1.7 ]
+        }
+    }
+}

@@ -1,0 +1,45 @@
+
+language.name=English
+language.region=US
+language.code=en_US
+
+itemGroup.spawnerTab=Spawners
+
+item.spawnerBat.name=Bat Spawner
+item.spawnerChicken.name=Chicken Spawner
+item.spawnerCow.name=Cow Spawner
+item.spawnerHorse.name=Horse Spawner
+item.spawnerMooshroom.name=Mooshroom Spawner
+item.spawnerOcelot.name=Ocelot Spawner
+item.spawnerPig.name=Pig Spawner
+item.spawnerRabbit.name=Rabbit Spawner
+item.spawnerSheep.name=Sheep Spawner
+item.spawnerSquid.name=Squid Spawner
+item.spawnerWolf.name=Wolf Spawner
+
+item.spawnerIronGolem.name=Iron Golem Spawner
+item.spawnerSnowGolem.name=Snow Golem Spawner
+item.spawnerVillager.name=Villager Spawner
+
+item.spawnerCaveSpider.name=Cave Spider Spawner
+item.spawnerCreeper.name=Creeper Spawner
+item.spawnerElderGuardian.name=Elder Guardian Spawner
+item.spawnerEnderman.name=Enderman Spawner
+item.spawnerEndermite.name=Endermite Spawner
+item.spawnerGuardian.name=Guardian Spawner
+item.spawnerKillerRabbit.name=Killer Rabbit Spawner
+item.spawnerSilverfish.name=Silverfish Spawner
+item.spawnerSkeleton.name=Skeleton Spawner
+item.spawnerSlime.name=Slime Spawner
+item.spawnerSpider.name=Spider Spawner
+item.spawnerWitch.name=Witch Spawner
+item.spawnerZombie.name=Zombie Spawner
+
+item.spawnerBlaze.name=Blaze Spawner
+item.spawnerGhast.name=Ghast Spawner
+item.spawnerMagmaCube.name=Magma Cube Spawner
+item.spawnerWitherSkeleton.name=Wither Skeleton Spawner
+item.spawnerZombiePigman.name=Zombie Pigman Spawner
+
+item.spawnerWither.name=Wither Spawner
+item.spawnerEnderDragon.name=Ender Dragon Spawner
