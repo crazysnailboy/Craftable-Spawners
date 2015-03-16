@@ -7,7 +7,7 @@ Craftable Spawners does what the name suggests and allows you to craft all types
 
 ## Download
 
-[modarch.jar](https://github.com/crazysnailboy/modarch/blob/master/bin/modarch.jar) for MC 1.8
+[CraftableSpawners-3.0-pre1.jar](https://github.com/crazysnailboy/Craftable-Spawners/blob/master/builds/1.8/CraftableSpawners-3.0-pre1.jar) for MC 1.8
 
 
 ## Build Instructions
