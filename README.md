@@ -7,7 +7,9 @@ Craftable Spawners does what the name suggests and allows you to craft all types
 
 ## Download
 
-[CraftableSpawners-3.0-pre1.jar](https://github.com/crazysnailboy/Craftable-Spawners/blob/master/builds/1.8/CraftableSpawners-3.0-pre1.jar) for MC 1.8
+[CraftableSpawners-3.0-pre1.jar](https://github.com/crazysnailboy/Craftable-Spawners/raw/master/builds/1.8/CraftableSpawners-3.0-pre1.jar)
+
+*Requires Minecraft Forge 11.14.1.1336*
 
 
 ## Build Instructions
