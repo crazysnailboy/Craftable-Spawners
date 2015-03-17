@@ -3,7 +3,7 @@ language.name=English
 language.region=US
 language.code=en_US
 
-itemGroup.spawnerTab=Spawners
+itemGroup.tabSpawners=Mob Spawners
 
 item.spawnerBat.name=Bat Spawner
 item.spawnerChicken.name=Chicken Spawner
@@ -43,3 +43,5 @@ item.spawnerZombiePigman.name=Zombie Pigman Spawner
 
 item.spawnerWither.name=Wither Spawner
 item.spawnerEnderDragon.name=Ender Dragon Spawner
+
+item.spawnerCode.name=Spawner Core

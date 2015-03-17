@@ -32,7 +32,7 @@ public class CraftableSpawners
     public static Config configInstance = new Config();
 
     
-    public static CreativeTabs spawners = new CreativeTabSpawners("tapSpawners");
+    public static CreativeTabs spawners = new CreativeTabSpawners("tabSpawners");
     
 	@SidedProxy(clientSide = CLIENT_PROXY_CLASS, serverSide = SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
