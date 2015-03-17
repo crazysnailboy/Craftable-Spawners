@@ -1,6 +1,8 @@
 package theboo.mods.craftablespawners;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.Item;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -9,7 +11,6 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import theboo.mods.craftablespawners.common.Config;
-import theboo.mods.craftablespawners.common.CreativeTabSpawners;
 import theboo.mods.craftablespawners.init.ModItems;
 import theboo.mods.craftablespawners.proxy.CommonProxy;
 
@@ -32,8 +33,15 @@ public class CraftableSpawners
     public static Config configInstance = new Config();
 
     
-    public static CreativeTabs spawners = new CreativeTabSpawners("tabSpawners");
-    
+	public static CreativeTabs spawners = new CreativeTabs("tabSpawners")
+	{
+		public Item getTabIconItem()
+		{
+			return Item.getItemFromBlock(Blocks.mob_spawner);
+		}
+	};
+
+	
 	@SidedProxy(clientSide = CLIENT_PROXY_CLASS, serverSide = SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
     

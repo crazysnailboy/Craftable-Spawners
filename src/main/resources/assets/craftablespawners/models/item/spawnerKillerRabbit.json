@@ -1,7 +1,7 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "craftablespawners:items/spawnerRabbit"
+        "layer0": "craftablespawners:items/spawnerKillerRabbit"
     },
     "display": {
         "firstperson": {
