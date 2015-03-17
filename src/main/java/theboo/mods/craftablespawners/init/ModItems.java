@@ -4,12 +4,13 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import theboo.mods.craftablespawners.CraftableSpawners;
 import theboo.mods.craftablespawners.item.ItemCraftableSpawners;
 import theboo.mods.craftablespawners.item.ItemSpawnerBuilder;
 import theboo.mods.craftablespawners.item.crafting.ModRecipes;
 
 public class ModItems {
+
+    public static Item spawnerCore;
 
     public static Item spawnerBat;
 	public static Item spawnerChicken;	
@@ -50,29 +51,8 @@ public class ModItems {
 	public static Item spawnerWither;
     public static Item spawnerEnderDragon;
     
-    public static Item spawnerCore;
 	
-	
-	public static void init()
-	{	
-		initializeItems();
-	}
-	
-	public static void register()
-	{
-		registerItems();
-		ModRecipes.addCraftingRecipes();
-	}
-	
-	public static void registerRenders()
-	{
-		registerInventoryModels();
-	}
-	
-	
-
-
-	private static void initializeItems()
+	public static void initializeItems()
 	{
         spawnerCore = new ItemCraftableSpawners().setUnlocalizedName("spawnerCore");
 
@@ -117,8 +97,11 @@ public class ModItems {
     
 	}
 	
-	private static void registerItems()
+	public static void registerItems()
 	{
+		
+		System.out.println("registerItems");
+		
 		GameRegistry.registerItem(spawnerCore, spawnerCore.getUnlocalizedName().substring(5));
 
 		GameRegistry.registerItem(spawnerBat, spawnerBat.getUnlocalizedName().substring(5));
@@ -161,12 +144,9 @@ public class ModItems {
 	    GameRegistry.registerItem(spawnerEnderDragon, spawnerEnderDragon.getUnlocalizedName().substring(5));
 	}
 	
-	
-	
-	private static void registerInventoryModels()
+	public static void registerRenders()
 	{
 		registerInventoryModel(spawnerCore);
-		
 		
 		registerInventoryModel(spawnerBat);
 		registerInventoryModel(spawnerChicken);
@@ -208,9 +188,10 @@ public class ModItems {
 		registerInventoryModel(spawnerEnderDragon);
 	}
 	
+	
 	private static void registerInventoryModel(Item item)
 	{
-		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(CraftableSpawners.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(ModBootstrap.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
 	}
 	
 }

@@ -1,6 +1,6 @@
-# Craftable Spawners
+# Craftable Spawners Mod for Minecraft
 
-Craftable Spawners does what the name suggests and allows you to craft all types of mob spawner from items obtainable in vanilla minecraft.
+Craftable Spawners allows you to craft all types of mob spawner using items obtainable in survival vanilla Minecraft.
 
 ![Screenshot of Craftable Spawners](http://www.minecraftmods.com/wp-content/uploads/2013/07/craftablespawners1-1024x561.jpg)
 
