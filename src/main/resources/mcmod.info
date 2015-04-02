@@ -1,0 +1,14 @@
+[{
+	"modid": "craftablespawners",
+	"name": "Craftable Spawners",
+	"description": "§7Allows the user to obtain the mob spawner blocks from the Creative Menu or by crafting them.",
+	"credits": "§7Originally created by MightyPork",
+	"version": "§73.0-pre1",
+	"mcversion": "§71.8",
+	"url": "§7https://github.com/crazysnailboy/Craftable-Spawners",
+	"updateUrl": "",
+	"authorList": ["§8MightyPork", "§8TheBoo", "§7crazysnailboy"],
+	"screenshots": [],
+	"logoFile": "",
+	"dependencies": []
+}]
